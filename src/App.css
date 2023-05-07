@@ -1,0 +1,114 @@
+.bg-custom-primary{
+background-color: #fff7f9;
+}
+.row{
+  --bs-gutter-x:0;
+}
+nav{
+height: 70px;
+}
+.footer-left{
+width: 30%;
+}
+.footer-middle{
+flex: 1;
+}
+.footer-right{
+width: 20%;
+}
+
+.socialIcons{
+display: flex;
+gap: 10px;
+}
+ul{
+  padding: 0;
+list-style: none;
+}
+a{
+text-decoration: none;
+color: #333;
+}
+.footer-middle li{
+margin: 15px 0;
+}
+
+.footer-middle{
+display: flex;
+justify-content: space-between;
+}
+
+.input-subscribe{
+background-color: #ccc;
+padding: 5px 15px;
+outline: none;
+border: none;
+margin: 10px 0 20px;
+width: 100%;
+}
+
+.btn-subscribe{
+background-color: #fb9cb8;
+max-width: 150px;
+border: none;
+outline: none;
+font-size: 14px;
+color: white;
+border-radius: 8px;
+padding: 5px 25px;
+}
+
+.shop-btn{
+background-color: #fb9cb8;
+color: white;
+border: none;
+outline: none;
+}
+.shop-btn:hover{
+background-color: #de4976;
+}
+
+.footer-bottom{
+background-color: #fb9cb8;
+}
+
+@media  screen and (max-width:768px) {
+  nav{
+  height: 60px;
+  position: static;
+  }
+  .footer-left{
+    padding: 15px 0 !important;
+  width: 100%;
+  }
+  .footer-middle{
+    padding: 15px 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .footer-right{
+    padding: 15px 0 !important;
+  width: 100%;
+  }
+  .navbar-toggler{
+  position: absolute;
+  right: 25px;
+  }
+  .navbar-collapse{
+  display: flex;
+  background-color: #fb9cb8;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 15px;
+  position: static;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px 0;
+  }
+  .nav-link{
+  color: white;
+cursor: pointer;
+  }
+  
+}
