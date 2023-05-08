@@ -75,7 +75,9 @@ background-color: #fb9cb8;
 @media  screen and (max-width:768px) {
   nav{
   height: 60px;
-  position: static;
+  z-index: 1;
+  color: #777!important;
+
   }
   .footer-left{
     padding: 15px 0 !important;
@@ -96,19 +98,22 @@ background-color: #fb9cb8;
   }
   .navbar-collapse{
   display: flex;
-  background-color: #fb9cb8;
+  background-color: rgba(189, 91, 107, 0.6) !important;
   flex-direction: column;
   justify-content: center !important;
   align-items: center !important;
   gap: 15px;
-  position: static;
   text-align: center;
   margin-top: 50px;
   padding: 10px 0;
   }
   .nav-link{
-  color: white;
+  color: #ddd;
 cursor: pointer;
+  }
+  .image-content-parent{
+  display: flex;
+  flex-wrap: wrap;
   }
   
 }

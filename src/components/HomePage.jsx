@@ -10,8 +10,13 @@ import col4 from "../assets/4.png";
 const HomePage = () => {
   return (
     <div>
-      <div>
-        <Image src={Banner1} width={"100%"} alt="Banner1" />
+      <div className="image-content-parent">
+        <Image
+          className="image-content"
+          src={Banner1}
+          width={"100%"}
+          alt="Banner1"
+        />
       </div>
       <Row>
         <Col>
