@@ -8,6 +8,7 @@ import AboutPage from "./components/AboutPage";
 import ShopPage from "./components/ShopPage";
 import BlogPage from "./components/BlogPage";
 import ContactPage from "./components/ContactPage";
+import SignUp from "./components/SignUp";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ComingSoonPage from "./components/ComingSoon";
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blog" Component={BlogPage} />
         <Route path="/contact" Component={ContactPage} />
         <Route path="/comingsoon" Component={ComingSoonPage} />
+        <Route path="/signup" Component={SignUp} />
       </Routes>
       <Footer />
     </BrowserRouter>

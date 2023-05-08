@@ -47,7 +47,7 @@ margin: 10px 0 20px;
 width: 100%;
 }
 
-.btn-subscribe{
+.btn-subscribe,.btn-signup{
 background-color: #fb9cb8;
 max-width: 150px;
 border: none;
@@ -58,14 +58,19 @@ border-radius: 8px;
 padding: 5px 25px;
 }
 
+.btn-signup{
+right:30px;
+}
+
 .shop-btn{
 background-color: #fb9cb8;
 color: white;
 border: none;
 outline: none;
 }
-.shop-btn:hover{
+.shop-btn:hover,.btn-signup:hover{
 background-color: #de4976;
+color: white;
 }
 
 .footer-bottom{
@@ -115,5 +120,10 @@ cursor: pointer;
   display: flex;
   flex-wrap: wrap;
   }
-  
+  .btn-signup{
+  position: static !important;
+  }
+  .about-team{
+  flex-flow: column-reverse;
+  }
 }

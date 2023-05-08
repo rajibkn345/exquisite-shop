@@ -1,7 +1,7 @@
 import { Image } from "react-bootstrap";
 import { Navbar, Nav } from "react-bootstrap";
 import logo from "../assets/logo.png";
-
+import { Link } from "react-router-dom";
 function App() {
   return (
     <Navbar className="position-relative bg-custom-primary" expand="md">
@@ -17,6 +17,9 @@ function App() {
           <Nav.Link href="/blog">Blog</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
+        <Link to="/signup" className="btn-signup position-absolute">
+          Sign Up Now
+        </Link>
       </Navbar.Collapse>
     </Navbar>
   );
