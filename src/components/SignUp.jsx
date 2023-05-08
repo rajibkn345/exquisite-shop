@@ -19,10 +19,7 @@ function SignUp() {
     <Container className="py-5">
       <Row className="justify-content-md-center">
         <Col xs={12} md={6}>
-          <h3 className="text-center">Product coming soon</h3>
-          <p className="text-center">
-            It's going to be amazing Sign up to find out when it's ready
-          </p>
+          <h3 className="text-center">Sign Up</h3>
           <Form onSubmit={handleSignUp}>
             <Form.Group className="py-3" controlId="formBasicName">
               <Form.Label>Name</Form.Label>

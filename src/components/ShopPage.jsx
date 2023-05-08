@@ -57,7 +57,7 @@ const ShopPage = () => {
 
   return (
     <Container>
-      <h2 className="mt-5 text-center">Shop Our Products</h2>
+      <h2 className="mt-5 text-center">Products are coming soon</h2>
       <Row className="mt-3">
         {products.map((product) => (
           <Col key={product.id} md={4} className="mb-4 px-2">
