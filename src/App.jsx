@@ -1,8 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import Navbar from "./components/Navbar";
-import "bootstrap/dist/css/bootstrap.css";
-import "./App.css";
+import "bootstrap/scss/bootstrap.scss";
+import "./style.scss";
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 import ShopPage from "./components/ShopPage";
