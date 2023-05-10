@@ -58,6 +58,13 @@ const ShopPage = () => {
   return (
     <Container>
       <h2 className="mt-5 text-center">Products are coming soon</h2>
+      <p className="px-4 mx-4 text-center my-3">
+        In the meantime. Sign up for our monthly newsletter to stay up to date
+      </p>
+      <div className="d-flex my-4 py-3 justify-content-center align-items-center">
+        <input className="px-3 py-1 rounded" placeholder="Enter your email" />
+        <button className="btn-subscribe mx-2">Sign Up</button>
+      </div>
       <Row className="mt-3">
         {products.map((product) => (
           <Col key={product.id} md={4} className="mb-4 px-2">
