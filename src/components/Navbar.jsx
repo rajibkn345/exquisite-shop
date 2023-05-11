@@ -17,9 +17,9 @@ function App() {
           <Nav.Link href="/blog">Blog</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
-        <Link to="/signup" className="btn-signup position-absolute">
+        <Nav.Link href="/signup" className="btn-signup position-absolute">
           Sign Up Now
-        </Link>
+        </Nav.Link>
       </Navbar.Collapse>
     </Navbar>
   );
